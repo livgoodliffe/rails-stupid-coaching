@@ -1,0 +1,15 @@
+
+$gray: #F4F4F4;
+
+body {
+  background: white; // Using this variable
+  font-family: 'Century Gothic';
+  font-weight: lighter;
+}
+
+a {
+  color: black;
+  &:hover {
+    color: blue;
+  }
+}
